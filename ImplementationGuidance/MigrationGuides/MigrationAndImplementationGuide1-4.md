@@ -89,7 +89,7 @@ First we will start with an example TRAPI 1.3 message. For ease of reading, this
                     }
                 ]
             },
-            "score": .4
+            "score": 0.4
         },
         {
             "node_bindings": {
@@ -126,7 +126,7 @@ First we will start with an example TRAPI 1.3 message. For ease of reading, this
                     }
                 ]
             },
-            "score": .6
+            "score": 0.6
         },
         {
             "node_bindings": {
@@ -158,7 +158,7 @@ First we will start with an example TRAPI 1.3 message. For ease of reading, this
                     }
                 ]
             },
-            "score": .3
+            "score": 0.3
         }
     ]
 }
@@ -267,7 +267,7 @@ The results are shown broken up for illustrative purposes to make this guide cle
                     }
                 ]
             },
-            "score": .7
+            "score": 0.7
         }
     ]
 }
@@ -390,7 +390,7 @@ The first result has the most straighforward anaylsis block:
             }
         ]
     },
-    "score": .4
+    "score": 0.4
 }
 ```
 
@@ -410,7 +410,7 @@ From the second result, we construct this analysis:
         "a1",
         "a2"
     ],
-    "score": .6
+    "score": 0.6
 }
 ```
 
@@ -428,7 +428,7 @@ Lastly, the third result generates this analysis:
             }
         ]
     }
-    "score": .3
+    "score": 0.3
 }
 ```
 
@@ -449,7 +449,7 @@ So the completed "analyses" list with these analysis blocks will look like this
                 }
             ]
         },
-        "score": .4
+        "score": 0.4
     },
     {
         "resource_id": "infores:ara0"
@@ -464,7 +464,7 @@ So the completed "analyses" list with these analysis blocks will look like this
             "a1",
             "a2"
         ],
-        "score": .6
+        "score": 0.6
     },
     {
         "resource_id": "infores:ara0"
@@ -475,7 +475,7 @@ So the completed "analyses" list with these analysis blocks will look like this
                 }
             ]
         }
-        "score": .3
+        "score": 0.3
     }
 ]
 ```
@@ -514,7 +514,7 @@ However, an ARA also has discretion in the construction of the analysis blocks a
                     "a1",
                     "a2"
                 ]
-                "score": .7
+                "score": 0.7
             },
         ]
     }
@@ -606,7 +606,7 @@ Finally, we can put all of it back together, to show the full message.
             ]
         },
         "a2": {
-            "edges" [
+            "edges": [
                 "extra_edge1"
             ]
         }
@@ -642,7 +642,7 @@ Finally, we can put all of it back together, to show the full message.
                         "a1",
                         "a2"
                     ]
-                    "score": .7
+                    "score": 0.7
                 },
             ]
         }
